@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.quote-card {
+  background-color: #ffffffdd;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.quote-card:hover {
+  transform: scale(1.02);
+}
+
+#quote-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#quote-author {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+button#new-quote {
+  background-color: #4e54c8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button#new-quote:hover {
+  background-color: #3b3f99;
+}
