@@ -1,0 +1,59 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0fdf4; /* light greenish background */
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #15803d; /* emerald-700 */
+  margin-bottom: 1rem;
+}
+
+select {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #10b981; /* emerald-500 */
+  border-radius: 8px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  outline: none;
+  border-color: #065f46; /* emerald-800 */
+}
+
+#moveInfo {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  color: #065f46;
+  line-height: 1.6;
+  min-height: 100px;
+}
+
+/* Button Styling */
+button {
+  margin-top: 1.5rem;
+  background-color: #2563eb; /* blue-600 */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e40af; /* blue-800 */
+}

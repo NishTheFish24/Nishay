@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AceBot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-green-50 p-4 font-sans text-center">
+    <h1 class="text-3xl font-bold mb-4">🎾 AceBot</h1>
+    <p>Select a tennis move to learn more:</p>
+
+    <select id="moveSelect" class="p-2 mt-4 border rounded">
+      <option value="">-- Choose a move --</option>
+      <option value="serve">Serve</option>
+      <option value="forehand">Forehand</option>
+      <option value="backhand">Backhand</option>
+      <option value="volley">Volley</option>
+      <option value="lob">Lob</option>
+      <option value="dropShot">Drop Shot</option>
+    </select>
+
+    <div id="moveInfo" class="mt-6 text-lg"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
